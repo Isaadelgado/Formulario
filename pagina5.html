@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="pagina4.css">
+    <link rel="stylesheet" href="pagina5.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -21,34 +21,28 @@
         <div><h2>Profile info</h2>
         <p>Fill in the data for profile. It will take a couple of minutes. 
 You only need a passport</p></div>
-        <div>
-           <div class="check">
-            <i class="fa-solid fa-square-check"></i>
-            <p>I agree with</p>
-            <p>Terms of use</p>
+       <fieldset class="container">
+         <h2>Contacts</h2>
+         <p>These contacts are used to inform about orders</p>
+         <i class="fa-regular fa-envelope"></i>
+         <input type="text" placeholder="alex_manager@gmail.com">
+         <i class="fa-solid fa-phone"></i>
+         <input type="text" placeholder="+1 555 555-1234">
+         <h3>Social network</h3>
+         <p>Indicate the desired communication method</p>
 
-            <fieldset class="container4">
-                <h2>Personal data</h2>
-                <p>Specify exactly as in your passport</p>
-                <p>First name</p>
-                <input type="text" placeholder="Alexander">
-                <p>Second name</p>
-                <input type="text" placeholder="Smith">
-                <p>Date of Birth</p>
-           <select name="example">
-            <option value="option1">12.05.1992</option>
+          <select name="example">
+            <option value="option1"><input type="text" placeholder="@alex_92">Skype</i></option>
+            
+            <option value="option2" ><input type="text" placeholder="@profile">Facebook</option>
+            
           </select>
-          <p>Place of Birth</p>
-          <select name="example2">
-            <option value="option1">New York, USA</option>
-          </select>
-            </fieldset>
 
-        <fieldset class="num">
-            <p>123-45-678</p>
-            <i class="fa-solid fa-check"></i>
-            <p>Your ITIN</p>
-        </fieldset>
+        
+        <p><i class="fa-solid fa-plus"></i>Add More</p>
+       </fieldset>
 
-        <button>Go next  <i class="fa-solid fa-arrow-right"></i></button>
-           </div>
+       <button>Go next<i class="fa-solid fa-arrow-right"></i>
+</button> 
+</body>
+</html>

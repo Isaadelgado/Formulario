@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="pagina4.css">
+     <link rel="stylesheet" href="pagina6.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -20,35 +20,47 @@
     <section class="container">
         <div><h2>Profile info</h2>
         <p>Fill in the data for profile. It will take a couple of minutes. 
-You only need a passport</p></div>
-        <div>
-           <div class="check">
-            <i class="fa-solid fa-square-check"></i>
-            <p>I agree with</p>
-            <p>Terms of use</p>
+You only need a passport</p></div></section>
 
-            <fieldset class="container4">
-                <h2>Personal data</h2>
-                <p>Specify exactly as in your passport</p>
-                <p>First name</p>
-                <input type="text" placeholder="Alexander">
-                <p>Second name</p>
-                <input type="text" placeholder="Smith">
-                <p>Date of Birth</p>
-           <select name="example">
-            <option value="option1">12.05.1992</option>
+ <fieldset>
+        <h2>Delivery address</h2>
+        <p>Used for shipping orders</p>
+
+        <p>Address</p>
+        <input type="text" placeholder="47 W 13th St">
+         <div class="elemento-com-linha"></div>
+         <p>City</p>
+         <select name="example">
+            <option value="option1">New York</option>
           </select>
-          <p>Place of Birth</p>
-          <select name="example2">
-            <option value="option1">New York, USA</option>
-          </select>
-            </fieldset>
+        <div class="elemento-com-linha"></div>
+        
+       <div class="form-row">
 
-        <fieldset class="num">
-            <p>123-45-678</p>
-            <i class="fa-solid fa-check"></i>
-            <p>Your ITIN</p>
-        </fieldset>
+    <div class="count">
+      <label for="country">Country</label>
+      <select id="country" name="example">
+        <option value="option1">USA</option>
+        <option value="option2">Brazil</option>
+        <option value="option3">Canada</option>
+      </select>
+    </div>
 
-        <button>Go next  <i class="fa-solid fa-arrow-right"></i></button>
-           </div>
+    <div class="count">
+      <label for="zip">Zip code</label>
+      <input id="zip" type="text" placeholder="10011">
+    </div>
+
+  </div>
+         
+        
+  
+        <p>Optional</p>
+        <input type="text">
+        <div class="elemento-com-linha"></div>
+
+    </fieldset>
+ 
+         <button><i class="fa-solid fa-check"></i>Save</button>
+</body>
+</html>
