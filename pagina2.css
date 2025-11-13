@@ -130,6 +130,11 @@ div p {
   margin-top: 8px;
 }
 
+a{
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
 button {
   background-color: #fff;
   color: #000;

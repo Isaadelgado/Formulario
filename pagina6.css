@@ -2,7 +2,7 @@
   height: 2px;
   width: 100%;
   background-color: rgba(226, 228, 229, 1);
-  margin: 1em 0; /* Define um espaço acima e abaixo */
+  margin: 1em 0; 
 }
 
 .logo{
@@ -118,6 +118,6 @@ input:focus, select:focus {
 }
 
 a{
+  color: #1e1e1e;
   text-decoration: none;
-  color: black;
 }

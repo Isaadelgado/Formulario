@@ -101,7 +101,7 @@ input[type="num"]:focus, input[type="tel"]:focus {
 }
 
 
-button {
+button a {
   margin-top: 1rem;
   background-color: #fff;
   color: #1e1e1e;
@@ -191,8 +191,13 @@ fieldset:last-of-type p:last-child {
   margin-top: 6px;
 }
 
+ a{
+  color: #1e1e1e;
+  text-decoration: none;
+} 
 
-button {
+
+a {
   width: 100%;
   padding: 14px;
   background-color: #007bff;
@@ -202,7 +207,7 @@ button {
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: all 0.2s ease;
 }
 
 button:hover {

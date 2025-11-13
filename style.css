@@ -121,6 +121,11 @@ button {
   transition: all 0.3s ease;
 }
 
+a{
+  color: #1e1e1e;
+  text-decoration: none;
+}
+
 button:hover {
   background-color: #4b7bec;
   color: #fff;
